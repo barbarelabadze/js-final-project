@@ -1,0 +1,65 @@
+.userDiv{
+    margin: 1rem;
+    padding: 4rem 4rem;
+    background-color: rgb(171, 140, 120);
+    color: rgb(240, 221, 221);
+    width: 200px;
+    float: left;
+    padding: 30px;
+    border: 2px solid black;
+}
+.userMoreInfo{
+    background-color:     rgb(211, 135, 59);
+    color: black;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1rem 1rem;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.95;
+    z-index: 999;
+    background-color: rgb(192, 192, 192);
+    width: 70rem;
+    height: 30rem;
+}
+
+.closed {
+    display: none;
+
+}
+.popup-user-name{
+    text-align: center;
+}
+
+.profile-photo{
+    width:80px;
+    height:80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+  .close-popup-button {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    width: 30px; 
+    height: 30px; 
+    background-color: black; 
+    color: #fff; 
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px; 
+  }
+  
+
+  
